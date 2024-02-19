@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD vs SIP Calculator</title>
+    <link rel="stylesheet" href="css/fd_sip_style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h2>FD vs. SIP Calculator</h2>
+
+        <label for="principal">Principal Amount of FD (INR):</label>
+        <input type="number" id="principal">
+
+        <label for="fdRate">FD Interest Rate (%):</label>
+        <input type="number" id="fdRate">
+
+        <label for="sipAmount">Monthly SIP Amount (INR):</label>
+        <input type="number" id="sipAmount"> 
+
+        <label for="sipRate">Expected SIP Return Rate (%):</label>
+        <input type="number" id="sipRate">
+
+        <label for="tenure">Investment Tenure (Years):</label>
+        <input type="number" id="tenure">
+
+        <button id="calculate">Calculate</button>
+
+        <div id="results">
+            </div> 
+    </div>
+
+    <script src="js/fd_sip_script.js"></script>
+</body>
+</html>
